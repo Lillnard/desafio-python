@@ -3,10 +3,10 @@ import textwrap
 
 def menu(usuario_criado, conta_criada):
     if not usuario_criado:
-        return input("Você ainda não criou um usuário.\n\n[nu]\tNovo usuário\n[q]\tSair\n=> ")
+        return input("Você precisa criar um usuário.\n\n[nu]\tNovo usuário\n[q]\tSair\n=> ")
 
     if not conta_criada:
-        return input("Você ainda não criou uma conta.\n\n[nc]\tNova conta\n[q]\tSair\n=> ")
+        return input("Agora vamos criar a sua conta.\n\n[nc]\tNova conta\n[q]\tSair\n=> ")
 
     menu = """\n
     ================ MENU ================
